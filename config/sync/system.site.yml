@@ -1,0 +1,14 @@
+uuid: 01bb9f77-7ea0-47de-bdab-8753161923fc
+name: 'Drupal Composer'
+mail: admin@admin.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
