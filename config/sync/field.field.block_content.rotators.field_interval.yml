@@ -1,0 +1,23 @@
+uuid: 29ff6ed1-c0e7-4fb8-b03f-d7004c1916a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.rotators
+    - field.storage.block_content.field_interval
+id: block_content.rotators.field_interval
+field_name: field_interval
+entity_type: block_content
+bundle: rotators
+label: Interval
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

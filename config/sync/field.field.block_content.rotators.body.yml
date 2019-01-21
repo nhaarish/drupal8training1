@@ -1,0 +1,22 @@
+uuid: ec154982-39e0-4e62-a88c-ef46fec8a71f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.rotators
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.rotators.body
+field_name: body
+entity_type: block_content
+bundle: rotators
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary
