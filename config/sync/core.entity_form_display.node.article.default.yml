@@ -6,7 +6,7 @@ dependencies:
     - field.field.node.article.body
     - field.field.node.article.comment
     - field.field.node.article.field_image
-    - field.field.node.article.field_rotator_block
+    - field.field.node.article.field_rotator
     - field.field.node.article.field_tags
     - image.style.thumbnail
     - node.type.article
@@ -51,7 +51,7 @@ content:
       progress_indicator: throbber
       preview_image_style: thumbnail
     third_party_settings: {  }
-  field_rotator_block:
+  field_rotator:
     weight: 121
     settings:
       match_operator: CONTAINS
@@ -68,6 +68,13 @@ content:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
     third_party_settings: {  }
   path:
     type: path

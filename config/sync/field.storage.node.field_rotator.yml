@@ -1,19 +1,19 @@
-uuid: a8adf82c-74ea-4e66-a94a-0f6f59c6ba95
+uuid: 08f40028-5787-40e9-a845-344068c2842b
 langcode: en
 status: true
 dependencies:
   module:
-    - block
+    - block_content
     - node
-id: node.field_rotator_block
-field_name: field_rotator_block
+id: node.field_rotator
+field_name: field_rotator
 entity_type: node
 type: entity_reference
 settings:
-  target_type: block
+  target_type: block_content
 module: core
 locked: false
-cardinality: 1
+cardinality: -1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

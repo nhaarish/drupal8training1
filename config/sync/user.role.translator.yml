@@ -1,0 +1,13 @@
+uuid: 1830b3e5-3215-4814-bf3a-ee05d9033eaa
+langcode: en
+status: true
+dependencies: {  }
+id: translator
+label: Translator
+weight: 3
+is_admin: null
+permissions:
+  - 'create content translations'
+  - 'delete content translations'
+  - 'translate article node'
+  - 'update content translations'

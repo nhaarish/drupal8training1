@@ -7,7 +7,7 @@ dependencies:
     - field.field.node.article.body
     - field.field.node.article.comment
     - field.field.node.article.field_image
-    - field.field.node.article.field_rotator_block
+    - field.field.node.article.field_rotator
     - field.field.node.article.field_tags
     - image.style.large
     - node.type.article
@@ -48,7 +48,7 @@ content:
       image_link: ''
     third_party_settings: {  }
     label: hidden
-  field_rotator_block:
+  field_rotator:
     weight: 111
     label: above
     settings:
@@ -69,4 +69,5 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  langcode: true
