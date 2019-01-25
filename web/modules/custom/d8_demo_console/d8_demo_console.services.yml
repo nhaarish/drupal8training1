@@ -1,0 +1,6 @@
+services:
+  d8_demo_console.event_subscriber:
+    class: Drupal\d8_demo_console\EventSubscriber\D8DemoConsoleSubscriber
+    arguments: ['@messenger']
+    tags:
+      - { name: event_subscriber }
