@@ -62,6 +62,7 @@ class BlockCacheExampleBlock extends BlockBase implements ContainerFactoryPlugin
    * {@inheritdoc}
    */
   public function build() {
+    $output= "";
     $query = $this->entityQuery->get('node')->sort('created','DESC')->range(0,3)->execute();
     $nodes = node_load_multiple($query);
     foreach ($nodes as $node) {
