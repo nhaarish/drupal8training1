@@ -4,3 +4,9 @@ services:
     arguments: ['@messenger']
     tags:
       - { name: event_subscriber }
+
+  d8_demo_console.node_insert_subscriber:
+      class: Drupal\d8_demo_console\EventSubscriber\NodeInsertSubscriber
+      arguments: ['@messenger', '@logger.factory']
+      tags:
+        - { name: event_subscriber }

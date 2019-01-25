@@ -1,0 +1,12 @@
+<?php 
+
+use Drupal\node\NodeInterface;
+use Drupal\d8_demo_console\Event\NodeInsertEvent;
+
+function d8_demo_console_node_insert(NodeInterface $node) {
+    $ed = \Drupal::service('event_dispatcher');
+    $ed->dispatch(
+      'node.insert',
+      new NodeInsertEvent($node)
+    );
+  }
