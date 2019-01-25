@@ -1,0 +1,7 @@
+d8_demo_module_drush.contact_form:
+  path: '/d8-demo-module-drush/contact'
+  defaults:
+    _title: 'Contact Us'
+    _form: 'Drupal\d8_demo_module_drush\Form\ContactForm'
+  requirements:
+    _permission: 'access content'

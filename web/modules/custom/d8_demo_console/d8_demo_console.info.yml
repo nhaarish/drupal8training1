@@ -1,0 +1,5 @@
+name: 'd8_demo_console'
+type: module
+description: 'Demo module created using console'
+core: 8.x
+package: 'Custom'

@@ -1,0 +1,5 @@
+name: D8 Demo module drush
+type: module
+description: Module created using Drush 9
+package: Custom
+core: 8.x

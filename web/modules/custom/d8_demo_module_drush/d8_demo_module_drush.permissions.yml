@@ -1,0 +1,4 @@
+administer d8_demo_module_drush configuration:
+  title: 'Administer d8_demo_module_drush configuration'
+  description: 'Optional description.'
+  restrict access: true

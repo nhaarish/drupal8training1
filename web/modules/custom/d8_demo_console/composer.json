@@ -1,0 +1,14 @@
+{
+  "name": "drupal/d8_demo_console",
+  "type": "drupal-module",
+  "description": "Demo module created using console",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/d8_demo_console",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/d8_demo_console",
+    "source": "http://cgit.drupalcode.org/d8_demo_console"
+  },
+  "require": { }
+}

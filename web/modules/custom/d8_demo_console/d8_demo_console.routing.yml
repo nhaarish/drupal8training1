@@ -1,0 +1,8 @@
+
+d8_demo_console.console_controller_helloConsole:
+  path: 'hello-console'
+  defaults:
+    _controller: '\Drupal\d8_demo_console\Controller\ConsoleController::helloConsole'
+    _title: 'helloConsole'
+  requirements:
+    _permission: 'access content'
